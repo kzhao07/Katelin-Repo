@@ -28,7 +28,16 @@ def displayMenu():
     print("4. Division")
 
 def main(): # this is the main program
-    displayMenu()
+    #displayMenu()
+    allFeatures = ["1. Addition", "2. Subtraction", "3. Division", "4. Multiplication"]
+    print("Here are the features in the application")
+
+    # for currentFeature in allFeatures:
+    #     print(currentFeature)
+    
+    for currentFeature in range(len(allFeatures)):
+        print(allFeatures[currentFeature])
+
     userOption =int(input("Please select an option: "))
     userFirstNum = int(input("What's your first number: "))
     userSecondNum = int(input("What's your second number: "))
