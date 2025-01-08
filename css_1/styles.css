@@ -1,0 +1,69 @@
+
+body {
+    background-color: #920002
+}
+#bigTitle {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 50px 0px;
+
+}
+
+h1 {
+    color: hotpink;
+    text-align: center;
+}
+
+#bio {
+    width:100%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    align-self: center;
+    line-height: 1.5;
+}
+
+#smallInfo {
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+    padding: 50px 0px 50px 50px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Nunito", serif;
+}
+
+#navItems {
+    font-size:30px;
+    color:green;
+    margin-left: 10px;
+    font-weight:bold;
+    
+}
+
+#link{
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color:white;
+}
+
+ol {
+    color: gold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+ul {
+    color: gold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+
